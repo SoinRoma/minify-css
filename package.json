@@ -1,0 +1,20 @@
+{
+  "name": "base-min-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoinRoma/minify-css.git"
+  },
+  "keywords": [],
+  "author": "SoinRoma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoinRoma/minify-css/issues"
+  },
+  "homepage": "https://github.com/SoinRoma/minify-css#readme"
+}
