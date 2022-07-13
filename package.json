@@ -1,8 +1,8 @@
 {
   "name": "base-min-css",
-  "version": "1.1.0",
-  "description": "",
+  "version": "1.1.1",
   "main": "index.js",
+  "style": "index.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/SoinRoma/minify-css.git"
   },
-  "keywords": [],
   "author": "SoinRoma",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SoinRoma/minify-css/issues"
   },
-  "homepage": "https://github.com/SoinRoma/minify-css#readme"
+  "homepage": "https://github.com/SoinRoma/minify-css#readme",
+  "description": "Base Min CSS classes for a convenient description of styles"
 }
