@@ -44,6 +44,10 @@
   display: flex;
 }
 
+.d-none{
+  display: none;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -136,6 +140,10 @@
 
 .pos-a {
   position: absolute;
+}
+
+.pos-f {
+  position: fixed;
 }
 
 .cu-p {
