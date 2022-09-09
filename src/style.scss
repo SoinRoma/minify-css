@@ -44,10 +44,6 @@
   display: flex;
 }
 
-.d-none{
-  display: none;
-}
-
 .justify-between {
   justify-content: space-between;
 }
@@ -134,6 +130,12 @@
   text-overflow: ellipsis;
 }
 
+@for $i from 0 through 10 {
+  .opacity-#{$i} {
+    opacity: $i / 10;
+  }
+}
+
 .pos-r {
   position: relative;
 }
@@ -142,10 +144,34 @@
   position: absolute;
 }
 
-.pos-f {
-  position: fixed;
-}
-
 .cu-p {
   cursor: pointer;
+}
+
+//   MARGIN AND PADDING
+$sides: (
+        'top': 't',
+        'right': 'r',
+        'bottom': 'b',
+        'left': 'l',
+);
+
+@each $side, $letter in $sides {
+  @for $px from 1 through 10 {
+    .m#{$letter}-#{$px * 5} {
+      margin-#{$side}: #{$px * 5}px !important;
+    }
+
+    .p#{$letter}-#{$px * 5} {
+      padding-#{$side}: #{$px * 5}px !important;
+    }
+
+    .m-#{$px * 5} {
+      margin: #{$px * 5}px !important;
+    }
+
+    .p-#{$px * 5} {
+      padding: #{$px * 5}px !important;
+    }
+  }
 }
